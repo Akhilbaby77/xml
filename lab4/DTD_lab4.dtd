@@ -1,0 +1,15 @@
+<!ELEMENT products (product+)>
+<!ELEMENT product (id, name, price, quantity, category)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT quantity (#PCDATA)>
+<!ELEMENT category (#PCDATA)>
+<!ATTLIST product
+    id ID #REQUIRED>
+<!ATTLIST price
+    type CDATA "USD">
+<!ATTLIST quantity
+    units CDATA "pcs">
+<!ATTLIST category
+    type CDATA "main">

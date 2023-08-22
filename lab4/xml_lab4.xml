@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XSD_lab4.xsd">
+  <product>
+    <id>5</id>
+    <name>Smartphone</name>
+    <price>399.99</price>
+    <quantity>250</quantity>
+    <category>Electronics</category>
+  </product>
+  <product>
+    <id>5</id>
+    <name>T-shirt</name>
+    <price>15.99</price>
+    <quantity>500</quantity>
+    <category>Clothing</category>
+  </product>
+  <product>
+    <id>5</id>
+    <name>Book Title</name>
+    <price>12.50</price>
+    <quantity>1000</quantity>
+    <category>Books</category>
+  </product>
+</products>
